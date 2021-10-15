@@ -230,7 +230,7 @@ function GetData() {
       const data = await datas.json()
 
       const options = {
-        key: __DEV__ ? 'rzp_test_H4CjjzrgImCNl5' : 'MHqTNpu3TPGBedmzLvDlwaQ9',
+        key: __DEV__ ? 'rzp_test_H4CjjzrgImCNl5' : 'rzp_test_H4CjjzrgImCNl5',
         currency: data.currency,
         amount: data.amount.toString(),
         order_id: data.id,
